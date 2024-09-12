@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout.css">
+    <title>Formulários</title>
+</head>
+<body>
+    <div>
+        <h1>Formulários HTML</h1>
+    </div>
+    <div>
+        <form action="#" method="get">
+            <div>
+                <label for="comment">Comentário</label>
+                <textarea cols="1" rows="1" name="comentario" id="comment">
+                </textarea>
+            </div>
+            <div>
+                <label for="n">Nome Completo*</label>
+                <input type="text" placeholder="Insira seu nome" name="nome" id="n" required>
+            </div>
+            <div>
+                <label for="qtd">Quantidade</label>
+                <input type="number" name="quantidade" id="qtd" min="1" max="10">
+            </div>
+
+            <input type="submit" value="Salvar">
+        </form>
+    </div>
+</body>
+</html>
